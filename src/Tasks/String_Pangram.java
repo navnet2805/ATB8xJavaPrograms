@@ -8,7 +8,7 @@ public class String_Pangram {
         String Sentence=s.toLowerCase();
 
         for (char c ='a' ; c <= 'z' ; c++) {
-            if (Sentence.indexOf(c) == -1)
+            if (Sentence.indexOf(c) == -1)  // indexof() will return -1 if it doesnt exists
                 return false;
         }
         return true;
