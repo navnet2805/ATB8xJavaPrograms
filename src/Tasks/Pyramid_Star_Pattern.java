@@ -2,11 +2,11 @@ package Tasks;
 
 public class Pyramid_Star_Pattern {
     public static void main(String[] args) {
-//        c
-//       *c*
-//      **c**
-//     ***c***
-//    ****c****
+//        *
+//       ***
+//      *****
+//     *******
+//    *********
 
 
         for (int row = 1; row<=5; row++) {
