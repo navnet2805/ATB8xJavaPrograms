@@ -11,7 +11,7 @@ Write a program to generate below patterns:
 Note: No array/Collection should be used.
  */
 
-import static java.lang.Integer.parseInt;
+
 
 public class Program01 {
     public static void main(String[] args) {

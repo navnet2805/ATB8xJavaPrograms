@@ -11,7 +11,7 @@ public class ClasCreation {
     }
 
     static int age = 20;
-    String name;
+
     public static void main(String[] args) {
 
         ClasCreation obj = new ClasCreation();
