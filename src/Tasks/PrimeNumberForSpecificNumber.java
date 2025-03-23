@@ -8,6 +8,7 @@ public class PrimeNumberForSpecificNumber {
         // 1. greater than 1
         // 2. it should be divisible by 1 and itself {it should have only 2 factors}
 
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number : "); // number to be checked prime or not.
         int number = sc.nextInt();

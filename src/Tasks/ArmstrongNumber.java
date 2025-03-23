@@ -21,9 +21,9 @@ public class ArmstrongNumber {
         int number = actual_number;
         while (digits >= 0) {
             if (temp != 0) {
-                temp = number / 10;
-                digits++;
-                number = temp;
+                temp = number / 10; //1
+                digits++; //3
+                number = temp; //0
             }
             else
             {
@@ -33,10 +33,10 @@ public class ArmstrongNumber {
         }
 
         // logic to find each digits and apply armstrong method.
-        int num2 = actual_number;
+        int num2 = actual_number; //153
         while(num2>0){
-            Each_digit = num2%10 ;
-            result += Math.pow(Each_digit, digits);
+            Each_digit = num2%10 ;  //last value
+            result += Math.pow(Each_digit, digits); // 9 = res +
             num2=num2/10;
         }
         System.out.println("result of a given number: "+result);
