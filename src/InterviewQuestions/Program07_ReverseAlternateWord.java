@@ -1,6 +1,6 @@
-package Tasks;
+package InterviewQuestions;
 
-public class ReverseAlternateWord {
+public class Program07_ReverseAlternateWord {
 /*
 give string input = "i am good guy";
 string output = "i ma good yug";

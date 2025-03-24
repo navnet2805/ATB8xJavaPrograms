@@ -1,6 +1,6 @@
-package Tasks;
+package InterviewQuestions;
 
-public class ArrayMid {
+public class Program06_ArrayMid {
     /*
     given array = {1,1,7,2,0};
     output should be 7 because sum of all left from 7 is same as sum of all elements to right
