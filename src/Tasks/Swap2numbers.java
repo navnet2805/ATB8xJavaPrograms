@@ -9,17 +9,17 @@ public class Swap2numbers {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of num1");
-        int num1 = sc.nextInt();
+        int num1 = sc.nextInt(); //5
 
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Enter the value of num2");
-        int num2 = sc1.nextInt();
+        int num2 = sc1.nextInt(); //4
 
         System.out.println("Values of num1 and num2 before swapping is: " +"num1= " +num1 +" & " +"num2= " +num2);
 
-        num2 = num1 + num2; //sum of 2 numbers
-        num1 = num2 - num1; // b value stored in a.
-        num2 = num2 - num1; // a value is stored in b
+        num2 = num1 + num2; //sum of 2 numbers          //9 = 5+4
+        num1 = num2 - num1; // b value stored in a.     //4 = 9-5
+        num2 = num2 - num1; // a value is stored in b   //5 =9-4
         System.out.println("Values of num1 and num2 after swapping is: " +"num1= " +num1 +" & " +"num2= " +num2);
     }
 }

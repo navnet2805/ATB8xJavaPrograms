@@ -12,24 +12,20 @@ Output = Java Programming Language
 
     public static void main(String[] args) {
         String input = "java programming language";
-        int[] ar = {0,5,11};
+        int[] ar = {0,5,12};
         StringBuilder sb = new StringBuilder();
 
-        for (int i=0 ; i<input.length() ; i++)
+        char[] c = input.toCharArray();
+
+        for (int index : ar)
         {
-            if (i==ar[0] || i==ar[1] || i==ar[2])
+            if (index>=0 && index<c.length)
             {
-                String s = String.valueOf(input.charAt(i)).toUpperCase();
-                sb.append(s);
-            }
-            else
-            {
-                char c = input.charAt(i);
-                sb.append(c);
+                c[index] = Character.toUpperCase(c[index]);
             }
         }
-        System.out.println(sb);
 
+        System.out.println(new String(c));
     }
 
 }

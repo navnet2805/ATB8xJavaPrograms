@@ -3,11 +3,12 @@ package InterviewQuestions;
 public class Program06_ArrayMid {
     /*
     given array = {1,1,7,2,0};
+                   {1,1,8,0,2,0}
     output should be 7 because sum of all left from 7 is same as sum of all elements to right
      */
     public static void main(String[] args) {
 
-        int[] input = {4,0,2,2,8,1,0,2,0,5};
+        int[] input = {4,0,2,2,8,1,0,2,0,3,2};
         int total_sum = 0;
         int left_sum = 0;
 
