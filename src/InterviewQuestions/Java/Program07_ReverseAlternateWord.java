@@ -1,4 +1,4 @@
-package InterviewQuestions;
+package InterviewQuestions.Java;
 
 public class Program07_ReverseAlternateWord {
 /*

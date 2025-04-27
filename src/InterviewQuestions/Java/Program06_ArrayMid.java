@@ -1,4 +1,4 @@
-package InterviewQuestions;
+package InterviewQuestions.Java;
 
 public class Program06_ArrayMid {
     /*
@@ -8,7 +8,7 @@ public class Program06_ArrayMid {
      */
     public static void main(String[] args) {
 
-        int[] input = {4,0,2,2,8,1,0,2,0,3,2};
+        int[] input = {1,1,7,2,0};
         int total_sum = 0;
         int left_sum = 0;
 

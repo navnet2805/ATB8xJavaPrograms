@@ -1,4 +1,4 @@
-package InterviewQuestions;
+package InterviewQuestions.Java;
 
 /*
 Write a program to get output like below:
@@ -30,7 +30,7 @@ public class Program03 {
                     System.out.print(values + " ");
 
                 }
-                System.out.println();
+                System.out.println(); // nextline
                count = count + (user_input-1);
             } else if (row % 2 == 0) //even
             {
@@ -41,8 +41,6 @@ public class Program03 {
                 }
                 System.out.println();
                 count = count+ (user_input+1);
-//            }
-
             }
         }
     }

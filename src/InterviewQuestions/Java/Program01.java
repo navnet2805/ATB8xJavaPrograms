@@ -1,4 +1,4 @@
-package InterviewQuestions;
+package InterviewQuestions.Java;
 
 /*
 Write a program to generate below patterns:

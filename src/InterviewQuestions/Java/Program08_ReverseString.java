@@ -1,7 +1,8 @@
-package InterviewQuestions;
+package InterviewQuestions.Java;
 
-public class ReverseString {
+public class Program08_ReverseString {
 //Reverse string “Test@59I” but ‘@59’ should not be reversed
+//               "Itse@59T"
 
     public static String reverseLetterString(String str)
     {

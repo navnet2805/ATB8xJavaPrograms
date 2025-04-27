@@ -16,7 +16,7 @@ public class Reverse_Each_word {
 
         String s = "Java is good Programming Language ";
 
-        String[] words = s.split(" ");
+        String[] words = s.split(" "); // ["Java","is","good","programming","langauges"]
         String reverseString ="";
 
         for(String w:words)

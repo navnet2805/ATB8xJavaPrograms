@@ -3,7 +3,10 @@ package Naveen.ex_04092024;
 public interface Temp {
     int a = 10; //static & final
 
-    abstract void m1();
+
+     void Login(); //abstract method
+
+    void regisert();
 
     public static void m2()
     {
@@ -14,6 +17,10 @@ public interface Temp {
     {
         System.out.println("m2");
     }
+
+    //static
+    //final
+    //we can not create objects ==  new Constructor()
 
 
 }

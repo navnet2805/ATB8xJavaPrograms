@@ -1,7 +1,4 @@
-package InterviewQuestions;
-
-import java.util.LinkedList;
-import java.util.List;
+package InterviewQuestions.Java;
 
 /*
 find the given string is palindrome without using Array or Loop

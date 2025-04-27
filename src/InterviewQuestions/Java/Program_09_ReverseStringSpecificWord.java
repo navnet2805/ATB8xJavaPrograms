@@ -1,10 +1,10 @@
-package InterviewQuestions;
+package InterviewQuestions.Java;
 /*
 String “GoodMorningGoodAfternoonGoodNight”
 output = “GoodMorningGoodAfternoonBadNight”
 Replace 3rd good with bad.
  */
-public class ReverseStringSpecificWord {
+public class Program_09_ReverseStringSpecificWord {
 
     public static void main(String[] args) {
 

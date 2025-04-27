@@ -1,4 +1,4 @@
-package InterviewQuestions;
+package InterviewQuestions.Java;
 
 public class Program05_ArrayIndexCapital {
     /*
@@ -12,7 +12,7 @@ Output = Java Programming Language
 
     public static void main(String[] args) {
         String input = "java programming language";
-        int[] ar = {0,5,12};
+        int[] ar = {0,5,12,14};
         StringBuilder sb = new StringBuilder();
 
         char[] c = input.toCharArray();

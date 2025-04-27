@@ -1,8 +1,6 @@
-package InterviewQuestions;
+package InterviewQuestions.Java;
 
-import java.util.Arrays;
 
-//Write a program to find the first non-repeating character in a string without using Collections.
 public class program04 {
 
     public static void method(String input)
@@ -34,6 +32,7 @@ public class program04 {
     public static void main(String[] args)
     {
         String s = "WelcomE to AutomAtioN";
+
         method(s);
 
     }
