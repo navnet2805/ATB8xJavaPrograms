@@ -1,6 +1,6 @@
 package InterviewQuestions.Java;
 
-public class Program05_ArrayIndexCapital {
+public class Program_05_ArrayIndexCapital {
     /*
     Write a java program with the below inputs, where arrays inputs are considered as index of the string.
 String = "java programming language"

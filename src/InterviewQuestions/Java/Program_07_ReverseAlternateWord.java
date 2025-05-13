@@ -1,6 +1,6 @@
 package InterviewQuestions.Java;
 
-public class Program07_ReverseAlternateWord {
+public class Program_07_ReverseAlternateWord {
 /*
 give string input = "i am good guy";
 string output = "i ma good yug";

@@ -13,7 +13,7 @@ Note: No array/Collection should be used.
 
 
 
-public class Program01 {
+public class Program_01 {
     public static void main(String[] args) {
         String num = "1";
         int count = 2;

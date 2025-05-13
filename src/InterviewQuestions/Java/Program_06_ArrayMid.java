@@ -1,6 +1,6 @@
 package InterviewQuestions.Java;
 
-public class Program06_ArrayMid {
+public class Program_06_ArrayMid {
     /*
     given array = {1,1,7,2,0};
                    {1,1,8,0,2,0}

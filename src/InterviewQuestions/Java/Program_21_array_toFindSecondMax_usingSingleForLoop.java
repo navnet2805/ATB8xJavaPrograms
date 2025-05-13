@@ -1,6 +1,6 @@
 package InterviewQuestions.Java;
 
-public class Program21_array_toFindSecondMax_usingSingleForLoop {
+public class Program_21_array_toFindSecondMax_usingSingleForLoop {
     public static void main(String[] args) {
         int[] a = {10,3,9,1,55,4,8,74};
 

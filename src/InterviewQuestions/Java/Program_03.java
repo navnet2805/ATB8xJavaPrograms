@@ -16,7 +16,7 @@ user input=4
 Note: No array or Collection must be used
  */
 
-public class Program03 {
+public class Program_03 {
 
     public static void main(String[] args) {
         int user_input = 03;

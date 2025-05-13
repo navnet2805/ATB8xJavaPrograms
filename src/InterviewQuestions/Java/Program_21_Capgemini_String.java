@@ -1,6 +1,6 @@
 package InterviewQuestions.Java;
 
-public class Program21_Capgemini_String {
+public class Program_21_Capgemini_String {
     public static void main(String[] args) {
         String str = "Test45@W"; // West45@T
         StringBuilder res = new StringBuilder();

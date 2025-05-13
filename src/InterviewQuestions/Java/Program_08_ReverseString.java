@@ -1,6 +1,6 @@
 package InterviewQuestions.Java;
 
-public class Program08_ReverseString {
+public class Program_08_ReverseString {
 //Reverse string “Test@59I” but ‘@59’ should not be reversed
 //               "Itse@59T"
 

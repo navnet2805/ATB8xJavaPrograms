@@ -1,7 +1,7 @@
 package InterviewQuestions.Java;
 
 
-public class program04 {
+public class program_04 {
 
     public static void method(String input)
     {
